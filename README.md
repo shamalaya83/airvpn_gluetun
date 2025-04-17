@@ -1,5 +1,5 @@
 # Description:
-This script selects the best AirVPN server located in a specific country 
+This script selects the best Wireguard AirVPN server located in a specific country 
 (default: Netherlands) by evaluating server load and avoiding exit nodes 
 from the Tor network. Optionally, it also checks each IP with 
 IPQualityScore to further ensure it's not flagged as Tor or malicious.
@@ -20,7 +20,8 @@ variable with the corresponding AirVPN hostname (e.g., "Zubeneschamali").
 - USE_IPQS_CHECK: Set to "true" to enable IPQualityScore validation
 
 # Usage:
-in gluetun compose add in volume   
+download the scirpt (es. in /usr/local/bin/)  
+in gluetun compose add in volume section  
 volumes:    
       - /usr/local/bin/pick_best_airvpn.sh:/pick_best_airvpn.sh:ro      
 
