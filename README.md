@@ -580,23 +580,3 @@ The selected server must exist in:
 ```
 
 Otherwise, the candidate is rejected.
-
-### API keys
-
-Never commit real API keys to the repository.
-
-Use environment variables, `.env`, Docker secrets, or another secure secret-management mechanism.
-
----
-
-## 📄 License
-
-Choose a license appropriate for your project. For example, if you want a permissive open-source license, you can use the **MIT License**.
-
----
-
-## ⭐ Contributing
-
-Pull requests and improvements are welcome.
-
-If you find a problem or have an idea for improving server selection or reputation checks, feel free to open an issue.
